@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.jensen{
+    width: 300px;
+    height: auto;
+}
+
+.mike{
+    width: 150px;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-1, .footer{
+    background-color: #1f2937;
+    color: white;
+}
