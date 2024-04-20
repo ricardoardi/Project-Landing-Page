@@ -33,7 +33,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 250px;
+    padding: 0 295px;
 }
 
 .header{
@@ -52,17 +52,13 @@ ul{
 .hero{
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
     flex-shrink: 1;
+    width: 810px;
 
 }
 
 .sign-in{
     align-self: first baseline;
-}
-
-h2{
-    border: 1px solid ;
 }
 
 .hero-title{
@@ -78,4 +74,30 @@ h2{
 
 .header-logo{
     font-size: 24px #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+}
+
+.body-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-2{
+    align-self: center;
+    justify-self: center;
+}
+
+.mikes{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.mike-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
