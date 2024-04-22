@@ -27,6 +27,9 @@ body{
 
 .body-3{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body-1{
@@ -100,4 +103,57 @@ button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    align-self: flex-end;
+    margin-top: -25px;
+}
+
+.box-quote{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.content{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.body-4{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-title, .signup-text, .button-1, .sign-in{
+    color: white;
+}
+
+.button-1, .sign-in{
+    padding: 8px 24px;
+
+}
+
+.button-1{
+    border: 1px solid white;
+    align-self: center;
+}
+
+.sign-in{
+    border: none;
+    border-radius: 8px;
+}
+
+.content, .button-1{
+    border-radius: 4px;
 }
